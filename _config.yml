@@ -44,9 +44,9 @@ collections:
             source: 'my_coll.csv'
         images:
             source: 'raw_images/my_coll' 
-    webrick:
-        headers:
-            'Access-Control-Allow-Origin': '*'
+        webrick:
+            headers:
+                'Access-Control-Allow-Origin': '*'
 
 
 
