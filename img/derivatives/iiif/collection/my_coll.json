@@ -1,0 +1,16 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/my_coll.json",
+  "@type": "sc:Collection",
+  "label": "my_coll",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/SAP_8287/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "SAP_8287"
+    }
+  ]
+}
